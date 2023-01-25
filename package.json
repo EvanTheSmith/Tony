@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/EvanTheSmith/Tony#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.4",
+    "morgan": "^1.10.0"
   }
 }
