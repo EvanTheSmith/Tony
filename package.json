@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/EvanTheSmith/Tony/issues"
   },
-  "homepage": "https://github.com/EvanTheSmith/Tony#readme"
+  "homepage": "https://github.com/EvanTheSmith/Tony#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
