@@ -1,5 +1,6 @@
 const express = require('express');
-require('dotenv').config();
+const dotenv = require('dotenv');
+dotenv.config({ path: './config/config.env' });
 const connectDB = require('./config/db');
 
 connectDB(); // it is important to connect to database BEFORE initializing Express
