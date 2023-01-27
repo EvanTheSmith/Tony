@@ -34,4 +34,4 @@ const createUser = async (req, res, next) => {
 //     }
 // }
 
-module.exports = { getUsers, createUser };
+module.exports = { getUsers, createUser }; // exporting for use in routes/user.js
