@@ -8,3 +8,27 @@ const getUsers = async (req, res, next) => {
         throw new Error(`Error getting users: ${error.message}`)
     }
 }
+
+const createUser = async (req, res, next) => {
+    try {
+
+    } catch (error) {
+
+    }
+}
+
+const deleteUser = async (req, res, next) => {
+    try {
+
+    } catch (error) {
+        
+    }
+}
+
+const getUser = async (req, res, next) => {
+    try {
+
+    } catch (error) {
+        
+    }
+}
