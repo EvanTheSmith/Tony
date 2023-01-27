@@ -18,18 +18,20 @@ const createUser = async (req, res, next) => {
     }
 }
 
-const deleteUser = async (req, res, next) => {
-    try {
+// const deleteUser = async (req, res, next) => {
+//     try {
 
-    } catch (error) {
+//     } catch (error) {
         
-    }
-}
+//     }
+// }
 
-const getUser = async (req, res, next) => {
-    try {
+// const getUser = async (req, res, next) => {
+//     try {
 
-    } catch (error) {
+//     } catch (error) {
         
-    }
-}
+//     }
+// }
+
+module.exports = { getUsers, createUser };
