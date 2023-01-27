@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema(); // instantiates Schema as a class, using the mongoose library
+const Schema = mongoose.Schema; // instantiates Schema as a class, using the mongoose library
 
 const UserSchema = new Schema({
     userName: {
